@@ -1,6 +1,6 @@
 # Project Title
 
-This project is related to assesment for backend role.
+Backend API for an authentication system
 
 ## Features
 
