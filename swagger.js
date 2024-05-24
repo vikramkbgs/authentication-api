@@ -13,8 +13,8 @@ const options = {
         },
         servers: [
             {
-                url: 'http://localhost:3002', // Change this to your server URL
-                description: 'Local server'
+                url: 'https://authentication-api-b79j.onrender.com/', // Change this to your server URL
+                description: 'Backend server'
             }
         ],
         components: {
