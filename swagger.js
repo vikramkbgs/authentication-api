@@ -16,6 +16,20 @@ const options = {
                 url: 'http://localhost:3002', // Change this to your server URL
                 description: 'Local server'
             }
+        ],
+        components: {
+            securitySchemes: {
+                BearerAuth: {
+                    type: 'http',
+                    scheme: 'bearer',
+                    bearerFormat: 'JWT'
+                }
+            }
+        },
+        security: [
+            {
+                BearerAuth: []
+            }
         ]
     },
     apis: ['./routes/*.js'] // Path to the API routes files
