@@ -26,6 +26,12 @@ Backend API for an authentication system
 4. Admins can access all profiles.
 5. Explore API documentation at `/api-docs`.
 
+## API Documentation
+
+You can access the Swagger documentation for this API by visiting the following link:
+
+[API Documentation](https://authentication-api-b79j.onrender.com/api-docs/)
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.
